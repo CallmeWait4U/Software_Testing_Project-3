@@ -22,7 +22,7 @@ public class FindCourse extends DriverInstance{
 
         WebElement searchInput = driver.findElement(By.id("nav-search-query"));
         searchInput.sendKeys("Moodle and Mountaineering");
-        searchInput.submit()
+        searchInput.submit();
     }
 
     @Test
@@ -35,7 +35,7 @@ public class FindCourse extends DriverInstance{
 
         WebElement searchInput = driver.findElement(By.id("nav-search-query"));
         searchInput.sendKeys("Kiem tra phan mem");
-        searchInput.submit()
+        searchInput.submit();
     }
 
 }

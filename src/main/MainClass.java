@@ -4,7 +4,7 @@ import usecases.AddCategoryUsecase;
 import usecases.GradingUsecase;
 import usecases.ResponseTimeSearchingForumsUsecase;
 import usecases.UploadFileUsecase;
-import usecases.FindCourse;
+import usecases.FindCourseUsecase;
 
 public class MainClass {
 	
@@ -26,7 +26,7 @@ public class MainClass {
 //		responseTimeSearchingForums.run_testcase();
 
 		// Usecase: Find course
-		FindCourse findCourse = new FindCourse();
+		FindCourseUsecase findCourse = new FindCourseUsecase();
 		// findCourse.run_testcase();
 	}
 }
