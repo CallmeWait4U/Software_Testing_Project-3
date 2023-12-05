@@ -1,22 +1,25 @@
 package main;
 
 import usecases.AddCategoryUsecase;
-import usecases.GradingUsecase;
-import usecases.ResponseTimeSearchingForumsUsecase;
-import usecases.UploadFileUsecase;
-import usecases.FindCourseUsecase;
 import usecases.EditProfileUsecase;
-import usecases.SortFilterActivitiesUsecase;
-import usecases.ViewListOfActivitiesUsecase;
+import usecases.FindCourseUsecase;
+import usecases.GradingUsecase;
 import usecases.MultiLanguageUsecase;
+import usecases.ResponseTimeSearchingForumsUsecase;
 import usecases.SendMessageUsecase;
+import usecases.SortFilterActivitiesUsecase;
+import usecases.UploadFileUsecase;
+import usecases.ViewListOfActivitiesUsecase;
+import usecases.LoginUsecase;
+import usecases.MessageUsecase;
+import usecases.ResponseTimeSubmitingAQuizUsescase;
 
 public class MainClass {
 	
 	public static void main(String args[]) throws Exception {
 		// Usecase: Upload File
 		UploadFileUsecase uploadfile = new UploadFileUsecase();
-//		uploadfile.run_testcase();
+		//uploadfile.run_testcase();
 		
 		// Usecase: Grading
 		GradingUsecase grading = new GradingUsecase();
@@ -44,7 +47,7 @@ public class MainClass {
 
 		// Usecase: View list of activities
 		ViewListOfActivitiesUsecase viewListOfActivities = new ViewListOfActivitiesUsecase();
-		// viewListOfActivities.run_testcase();
+//		 viewListOfActivities.run_testcase();
 
 		// Usecase: Multi language
 		MultiLanguageUsecase multilanguage = new MultiLanguageUsecase();
@@ -53,5 +56,14 @@ public class MainClass {
 		// Usecase: Send message
 		SendMessageUsecase sendmessage = new SendMessageUsecase();
 		// sendmessage.run_testcase();
+		
+		LoginUsecase login = new LoginUsecase();
+//		login.run_testcase();
+		
+		MessageUsecase message = new MessageUsecase();
+		//message.run_testcase();
+		
+		ResponseTimeSubmitingAQuizUsescase responseTimeSubmitingAQuizUsescase = new ResponseTimeSubmitingAQuizUsescase();
+		//responseTimeSubmitingAQuizUsescase.run_testcase();
 	}
 }
