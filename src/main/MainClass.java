@@ -4,7 +4,8 @@ import usecases.AddCategoryUsecase;
 import usecases.GradingUsecase;
 import usecases.ResponseTimeSearchingForumsUsecase;
 import usecases.UploadFileUsecase;
-import usecases.FindCourse;
+import usecases.FindCourseUsecase;
+import usecases.MultiLanguageUsecase;
 
 public class MainClass {
 	
@@ -28,5 +29,10 @@ public class MainClass {
 		// Usecase: Find course
 		FindCourse findCourse = new FindCourse();
 		// findCourse.run_testcase();
+
+
+		// Usecase: Multi language
+		MultiLanguage multilanguage = new MultiLanguage();
+		// multilanguage.run_testcase();
 	}
 }
