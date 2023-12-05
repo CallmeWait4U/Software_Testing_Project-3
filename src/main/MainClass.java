@@ -5,6 +5,9 @@ import usecases.GradingUsecase;
 import usecases.ResponseTimeSearchingForumsUsecase;
 import usecases.UploadFileUsecase;
 import usecases.FindCourseUsecase;
+import usecases.EditProfileUsecase;
+import usecases.SortFilterActivitiesUsecase;
+import usecases.ViewListOfActivitiesUsecase;
 
 public class MainClass {
 	
@@ -28,5 +31,17 @@ public class MainClass {
 		// Usecase: Find course
 		FindCourseUsecase findCourse = new FindCourseUsecase();
 		// findCourse.run_testcase();
+
+		// Usecase: Edit profile
+		EditProfileUsecase editProfile = new EditProfileUsecase();
+		// editProfile.run_testcase();
+
+		// Usecase: Sort filter activities
+		SortFilterActivitiesUsecase sortFilterActivities = new SortFilterActivitiesUsecase();
+		// sortFilterActivities.run_testcase();
+
+		// Usecase: View list of activities
+		ViewListOfActivitiesUsecase viewListOfActivities = new ViewListOfActivitiesUsecase();
+		// viewListOfActivities.run_testcase();
 	}
 }
