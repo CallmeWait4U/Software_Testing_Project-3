@@ -8,6 +8,8 @@ import usecases.FindCourseUsecase;
 import usecases.EditProfileUsecase;
 import usecases.SortFilterActivitiesUsecase;
 import usecases.ViewListOfActivitiesUsecase;
+import usecases.MultiLanguageUsecase;
+import usecases.SendMessageUsecase;
 
 public class MainClass {
 	
@@ -43,5 +45,13 @@ public class MainClass {
 		// Usecase: View list of activities
 		ViewListOfActivitiesUsecase viewListOfActivities = new ViewListOfActivitiesUsecase();
 		// viewListOfActivities.run_testcase();
+
+		// Usecase: Multi language
+		MultiLanguageUsecase multilanguage = new MultiLanguageUsecase();
+		// multilanguage.run_testcase();
+
+		// Usecase: Send message
+		SendMessageUsecase sendmessage = new SendMessageUsecase()
+		// sendmessage.run_testcase();
 	}
 }
