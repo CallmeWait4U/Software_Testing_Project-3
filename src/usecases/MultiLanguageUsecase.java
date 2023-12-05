@@ -7,19 +7,19 @@ public class MultiLanguageUsecase {
         MultiLanguage multilanguage = new MultiLanguage();
 
         multilanguage.initiateDriverInstance();
-        multilanguage.tc_findcourse_1();
+        multilanguage.tc_multilanguage_1();
         multilanguage.closeDriverInstance();
 
         multilanguage.initiateDriverInstance();
-        multilanguage.tc_findcourse_2();
+        multilanguage.tc_multilanguage_2();
         findcomultilanguageurse.closeDriverInstance();
 
         multilanguage.initiateDriverInstance();
-        multilanguage.tc_findcourse_3();
+        multilanguage.tc_multilanguage_3();
         findcomultilanguageurse.closeDriverInstance();
 
         multilanguage.initiateDriverInstance();
-        multilanguage.tc_findcourse_4();
+        multilanguage.tc_multilanguage_4();
         findcomultilanguageurse.closeDriverInstance();
     }
 }
