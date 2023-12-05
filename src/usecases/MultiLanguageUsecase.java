@@ -12,14 +12,14 @@ public class MultiLanguageUsecase {
 
         multilanguage.initiateDriverInstance();
         multilanguage.tc_multilanguage_2();
-        findcomultilanguageurse.closeDriverInstance();
+        multilanguage.closeDriverInstance();
 
         multilanguage.initiateDriverInstance();
         multilanguage.tc_multilanguage_3();
-        findcomultilanguageurse.closeDriverInstance();
+        multilanguage.closeDriverInstance();
 
         multilanguage.initiateDriverInstance();
         multilanguage.tc_multilanguage_4();
-        findcomultilanguageurse.closeDriverInstance();
+        multilanguage.closeDriverInstance();
     }
 }

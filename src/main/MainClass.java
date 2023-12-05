@@ -51,7 +51,7 @@ public class MainClass {
 		// multilanguage.run_testcase();
 
 		// Usecase: Send message
-		SendMessageUsecase sendmessage = new SendMessageUsecase()
+		SendMessageUsecase sendmessage = new SendMessageUsecase();
 		// sendmessage.run_testcase();
 	}
 }
