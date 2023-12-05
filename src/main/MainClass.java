@@ -5,10 +5,8 @@ import usecases.GradingUsecase;
 import usecases.ResponseTimeSearchingForumsUsecase;
 import usecases.UploadFileUsecase;
 import usecases.FindCourseUsecase;
-<<<<<<< HEAD
 import usecases.MultiLanguageUsecase;
-=======
->>>>>>> 21a8fbefcc2f4e41959d883d7866f45aee49fc92
+import usecases.SendMessageUsecase;
 
 public class MainClass {
 	
@@ -35,7 +33,11 @@ public class MainClass {
 
 
 		// Usecase: Multi language
-		MultiLanguage multilanguage = new MultiLanguage();
+		MultiLanguageUsecase multilanguage = new MultiLanguageUsecase();
 		// multilanguage.run_testcase();
+
+		// Usecase: Send message
+		SendMessageUsecase sendmessage = new SendMessageUsecase()
+		// sendmessage.run_testcase();
 	}
 }
